@@ -1,0 +1,33 @@
+# Test & Data Stores
+*data_store-*
+z-*
+
+
+# Ignore open XLSX & CSV
+~$**
+
+
+# Environment Variables via Dot-Env Loads
+**.env
+
+
+# Pypi
+dist/**
+**.egg-info
+
+# Pycharm IDE
+**/.DS_Store
+**/.idea
+.idea/**
+.DS_Store/**
+**/.pyc
+__pycache__
+_pycache_.pyc
+__pycache__/
+__pycache__/**
+
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+**/.ipynb_checkpoints
+.ipynb_checkpoints/**

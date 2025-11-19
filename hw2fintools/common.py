@@ -1,4 +1,8 @@
 import os
+from pathlib import Path
+
+
+mod_path = Path(__file__).parent
 
 
 def desktop_path():

@@ -2,7 +2,6 @@
 
 ### Notable
 The formula for valuing all assets that are purchased for financial gain has been unchanged since it was first laid out by a very smart man in about 600 B.C. (though he wasn’t smart enough to know it was 600 B.C.).    
-    
 The oracle was Aesop and his enduring, though somewhat incomplete, investment insight was “a bird in the hand is worth two in the bush.” To flesh out this principle, you must answer only three questions.     
 
 
@@ -25,6 +24,8 @@ At the other extreme, there are many times when the most brilliant of investors 
 Now, speculation—in which the focus is not on what an asset will produce but rather on what the next fellow will pay for it—is neither illegal, immoral nor un-American.  But it is not a game in which Charlie and I wish to play.  We bring nothing to the party, so why should we expect to take anything home?    
      
 The line separating investment and speculation, which is never bright and clear, becomes blurred still further when most market participants have recently enjoyed triumphs. Nothing sedates rationality like large doses of effortless money. After a heady experience of that kind, normally sensible people drift into behavior akin to that of Cinderella at the ball. They know that overstaying the festivities—that is, continuing to speculate in companies that have gigantic valuations relative to the cash they are likely to generate in the future—will eventually bring on pumpkins and mice. But they nevertheless hate to miss a single minute of what is one helluva party. Therefore, the giddy participants all plan to leave just seconds before midnight. There’s a problem, though: They are dancing in a room in which the clocks have no hands.
+
+
 
 ### References 
 - https://www.amazon.com/Essays-Warren-Buffett-Lessons-Corporate/dp/1611637589/ref=asc_df_1611637589/?tag=hyprod-20&linkCode=df0&hvadid=312065696873&hvpos=&hvnetw=g&hvrand=18308082611165501973&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9059141&hvtargid=pla-436093075825&psc=1&tag=&ref=&adgrpid=61316180399&hvpone=&hvptwo=&hvadid=312065696873&hvpos=&hvnetw=g&hvrand=18308082611165501973&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9059141&hvtargid=pla-436093075825

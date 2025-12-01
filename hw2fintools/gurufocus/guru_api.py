@@ -10,11 +10,9 @@ class DividendHistory:
         self.raw_data = self._raw_data()
         self.raw_df = self._raw_df()
 
-
     def _raw_data(self):
         return requests.get(
             f'https://api.gurufocus.com/public/user/{str(self.token)}/stock/{str(self.ticker)}/dividend').json()
-
 
     def _raw_df(self):
         div_list = self.raw_data
@@ -24,6 +22,7 @@ class DividendHistory:
 
 
 class FinancialHistory:
+
     def __init__(self, **kwargs):
         self.token = kwargs.get('token', 'error')
         self.ticker = kwargs.get('ticker', 'error')
@@ -34,7 +33,6 @@ class FinancialHistory:
         self.raw_data_quarterly = self._raw_data_quarterly()
         self.raw_df_quarterly = self._raw_df_quarterly()
 
-
     def _raw_data(self):
         return requests.get(
             f'https://api.gurufocus.com/public/user/{str(self.token)}/stock/{str(self.ticker)}/financials').json()
@@ -43,16 +41,13 @@ class FinancialHistory:
         data = self.raw_data
         return data['financials']['annuals']
 
-
     def _raw_data_quarterly(self):
         data = self.raw_data
         return data['financials']['quarterly']
 
-
     def _data_template_parameters(self):
         data = self.raw_data
         return data['financials']['financial_template_parameters']
-
 
     def _raw_df_annuals(self):
         data = self.raw_data_annuals
@@ -64,7 +59,6 @@ class FinancialHistory:
             dfx = pd.concat([dfx, series_expand.to_frame()], axis=1)
 
         return dfx
-
 
     def _raw_df_quarterly(self):
         data = self.raw_data_quarterly
@@ -78,6 +72,18 @@ class FinancialHistory:
         return dfx
 
 
+class OperatingData:
+
+    def __init__(self, **kwargs):
+        self.token = kwargs.get('token', 'error')
+        self.ticker = kwargs.get('ticker', 'error')
+        self.raw_data = self._raw_data()
+
+    def _raw_data(self):
+        return requests.get(
+            f'https://api.gurufocus.com/public/user/{str(self.token)}/stock/{str(self.ticker)}/operating_data').json()
+
+
 class PriceHistory:
 
     def __init__(self, **kwargs):
@@ -85,7 +91,6 @@ class PriceHistory:
         self.ticker = kwargs.get('ticker', 'error')
         self.raw_data = self._raw_data()
         self.raw_df = self._raw_df()
-
 
     def _raw_data(self):
         return requests.get(
@@ -96,4 +101,26 @@ class PriceHistory:
         price_df = pd.DataFrame(price_list, columns=['Date', 'PricePerShare'])
 
         return price_df
+
+
+class SegmentData:
+    def __init__(self, **kwargs):
+        self.token = kwargs.get('token', 'error')
+        self.ticker = kwargs.get('ticker', 'error')
+        self.raw_data = self._raw_data()
+
+    def _raw_data(self):
+        return requests.get(
+            f'https://api.gurufocus.com/public/user/{str(self.token)}/stock/{str(self.ticker)}/segments_data').json()
+
+
+class StockSummary:
+    def __init__(self, **kwargs):
+        self.token = kwargs.get('token', 'error')
+        self.ticker = kwargs.get('ticker', 'error')
+        self.raw_data = self._raw_data()
+
+    def _raw_data(self):
+        return requests.get(
+            f'https://api.gurufocus.com/public/user/{str(self.token)}/stock/{str(self.ticker)}/summary').json()
 

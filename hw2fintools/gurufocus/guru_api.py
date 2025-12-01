@@ -15,6 +15,7 @@ class DividendHistory:
         return requests.get(
             f'https://api.gurufocus.com/public/user/{str(self.token)}/stock/{str(self.ticker)}/dividend').json()
 
+
     def _raw_df(self):
         div_list = self.raw_data
         div_df = pd.DataFrame(div_list)
@@ -28,8 +29,11 @@ class FinancialHistory:
         self.ticker = kwargs.get('ticker', 'error')
         self.raw_data = self._raw_data()
         self.raw_data_annuals = self._raw_data_annual()
+        self.raw_df_annuals = self._raw_df_annuals()
         self.raw_data_quarterly = self._raw_data_quarterly()
+        self.raw_df_quarterly = self._raw_df_quarterly()
         self.data_template_parameters = self._data_template_parameters()
+
 
     def _raw_data(self):
         return requests.get(
@@ -39,13 +43,39 @@ class FinancialHistory:
         data = self.raw_data
         return data['financials']['annuals']
 
+
     def _raw_data_quarterly(self):
         data = self.raw_data
         return data['financials']['quarterly']
 
+
     def _data_template_parameters(self):
         data = self.raw_data
         return data['financials']['financial_template_parameters']
+
+
+    def _raw_df_annuals(self):
+        data = self.raw_data_annuals
+        df0 = pd.json_normalize(data)
+        dfx = pd.DataFrame()
+
+        for item, value in df0.items():
+            series_expand = pd.Series(value, name=item).explode(ignore_index=True)
+            dfx = pd.concat([dfx, series_expand.to_frame()], axis=1)
+
+        return dfx
+
+
+    def _raw_df_quarterly(self):
+        data = self.raw_data_quarterly
+        df0 = pd.json_normalize(data)
+        dfx = pd.DataFrame()
+
+        for item, value in df0.items():
+            series_expand = pd.Series(value, name=item).explode(ignore_index=True)
+            dfx = pd.concat([dfx, series_expand.to_frame()], axis=1)
+
+        return dfx
 
 
 class PriceHistory:

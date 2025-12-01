@@ -28,11 +28,11 @@ class FinancialHistory:
         self.token = kwargs.get('token', 'error')
         self.ticker = kwargs.get('ticker', 'error')
         self.raw_data = self._raw_data()
+        self.data_template_parameters = self._data_template_parameters()
         self.raw_data_annuals = self._raw_data_annual()
         self.raw_df_annuals = self._raw_df_annuals()
         self.raw_data_quarterly = self._raw_data_quarterly()
         self.raw_df_quarterly = self._raw_df_quarterly()
-        self.data_template_parameters = self._data_template_parameters()
 
 
     def _raw_data(self):

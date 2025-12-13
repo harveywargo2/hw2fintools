@@ -3,6 +3,6 @@ from hw2fintools.gurufocus.gf_api import (
 )
 
 from hw2fintools.gurufocus.gf_std_schema import (
-    annual_fin_hist_s5v1, div_hist_s1v1, price_hist_s2v1
+    annual_10K_hist_s5v1, div_hist_s1v1, price_hist_s2v1
 )
 

@@ -1,6 +1,6 @@
 # Dividends Still Don't Lie
 
-### Notable
+## Notable
 Speculation (p. 13)
 - Speculators hope that the price of a stock will go up and reward them with profits. 
 - Investors know that stocks that pay dividends go up too. 
@@ -57,6 +57,6 @@ Stock Investing
   1. Capital appreciation (an increase in share price) and dividends, which we will discuss in greater detail shortly. 
   2. Unlike a fixed-income investment, common stocks pay no fixed rate of interest and offer no guarantees for the return of capital.
 
-### References
+## References
 - https://www.amazon.com/dp/0470581565/?bestFormat=true&k=dividends%20still%20don%27t%20lie&ref_=nb_sb_ss_w_scx-ent-pd-bk-d_k1_1_10_de&crid=8XXMOO1K69OA&sprefix=dividends%20
 

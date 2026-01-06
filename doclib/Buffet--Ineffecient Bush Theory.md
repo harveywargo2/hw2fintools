@@ -1,6 +1,6 @@
 # Aesops Fable: A Bird the Hand is Worth Two in the Bush  
 
-### Notable
+## Notable
 The formula for valuing all assets that are purchased for financial gain has been unchanged since it was first laid out by a very smart man in about 600 B.C. (though he wasn’t smart enough to know it was 600 B.C.).    
 The oracle was Aesop and his enduring, though somewhat incomplete, investment insight was “a bird in the hand is worth two in the bush.” To flesh out this principle, you must answer only three questions.     
 
@@ -27,6 +27,6 @@ The line separating investment and speculation, which is never bright and clear,
 
 
 
-### References 
+## References 
 - https://www.amazon.com/Essays-Warren-Buffett-Lessons-Corporate/dp/1611637589/ref=asc_df_1611637589/?tag=hyprod-20&linkCode=df0&hvadid=312065696873&hvpos=&hvnetw=g&hvrand=18308082611165501973&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9059141&hvtargid=pla-436093075825&psc=1&tag=&ref=&adgrpid=61316180399&hvpone=&hvptwo=&hvadid=312065696873&hvpos=&hvnetw=g&hvrand=18308082611165501973&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9059141&hvtargid=pla-436093075825
 - https://www.youtube.com/watch?v=Bxqre8vPYBo

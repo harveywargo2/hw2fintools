@@ -1,5 +1,4 @@
-# Three Investment Categories
-## Notable
+## Three Investment Categories
 Category 1: Investments denominated in a currency.
 > Buffett pulled out his wallet, took out a one dollar bill and read out loud, “In God We Trust.” He noted this is false advertising. What it should say is, “In Government We Trust.” God isn’t going to do anything about that dollar.
 

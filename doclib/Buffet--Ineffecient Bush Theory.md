@@ -1,6 +1,5 @@
-# Aesops Fable: A Bird the Hand is Worth Two in the Bush  
+## Aesops Fable: A Bird the Hand is Worth Two in the Bush  
 
-## Notable
 The formula for valuing all assets that are purchased for financial gain has been unchanged since it was first laid out by a very smart man in about 600 B.C. (though he wasn’t smart enough to know it was 600 B.C.).    
 The oracle was Aesop and his enduring, though somewhat incomplete, investment insight was “a bird in the hand is worth two in the bush.” To flesh out this principle, you must answer only three questions.     
 

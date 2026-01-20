@@ -6,7 +6,7 @@
 - https://www.youtube.com/@DividendGrowthInvesting
 
 ## Value Investing
--https://www.youtube.com/@Value-Investing
+- https://www.youtube.com/@Value-Investing
 - https://www.youtube.com/@NewMoneyYouTube
 
 ## Accounting & Financials
@@ -17,3 +17,4 @@
 
 ## Stock Analysis
 - https://www.youtube.com/@EverythingMoney
+

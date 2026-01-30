@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 
 
-def annual_10K_hist_s5v1(fin_file_path, param_file_path):
+def annual_10K_hist_s1v1(fin_file_path, param_file_path):
 
     fin_df0 = pd.read_csv(fin_file_path, index_col=0)
     param_df = pd.read_csv(param_file_path, index_col=0).T
@@ -144,7 +144,7 @@ def div_hist_s1v1(div_file_path):
     return div1
 
 
-def price_hist_s2v1(price_file_path):
+def price_hist_s1v1(price_file_path):
     """Normalized GuruFocus Price History To Standard Schema
 
     :param

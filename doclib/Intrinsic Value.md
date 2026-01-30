@@ -7,3 +7,9 @@ Buffet Video
 
 Equity Bond
 - https://medium.com/the-river-delta/stocks-are-bonds-e761e5b9aa01
+
+
+
+Buffet & Example
+- https://www.youtube.com/watch?v=vNx9_6vlaRw
+

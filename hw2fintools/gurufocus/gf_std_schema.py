@@ -86,7 +86,12 @@ def annual_10K_hist_s1v1(fin_file_path, param_file_path):
         fin_df1['HighPrice'] = pd.to_numeric(fin_df0['valuation_and_quality.Highest Stock Price'], errors='coerce')
         fin_df1['LowPrice'] = pd.to_numeric(fin_df0['valuation_and_quality.Lowest Stock Price'], errors='coerce')
 
-        final_df = fin_df1.copy()
+    if reit == 'Y':
+        # FFO REIT Data
+        fin_df1['FfoPS'] = pd.to_numeric(fin_df0['per_share_data_array.FFO per Share'], errors='coerce')
+        fin_df1['FFO'] = pd.to_numeric(fin_df0['cashflow_statement.FFO'], errors='coerce')
+
+    final_df = fin_df1.copy()
 
     return final_df
 

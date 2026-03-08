@@ -13,7 +13,24 @@ Investor Relations Link: https://investor.ti.com/
 
 ## Fair Value
 Dividend Yield Theory
-- 
+```json
+{'analysis_type': 'dyt',
+ 'analysis_date': '2026-03-08',
+ 'last_df_date': Timestamp('2026-03-02 00:00:00'),
+ 'dyt_gate': 0.029,
+ 'dyt_gate10': 0.0319,
+ 'dyt_gate20': 0.0348,
+ 'mean20yr_dyt': np.float64(0.022984541422990418),
+ 'median20yr_dyt': np.float64(0.0248344370860927),
+ 'mean10yr_dyt': np.float64(0.02688016178395566),
+ 'median10yr_dyt': np.float64(0.026665266133705602),
+ 'mean5yr_dyt': np.float64(0.0278149237764108),
+ 'median5yr_dyt': np.float64(0.0278149237764108),
+ 'mean3yr_dyt': np.float64(0.0290902823816674),
+ 'median3yr_dyt': np.float64(0.0290902823816674)
+}
+
+```
 
 
 

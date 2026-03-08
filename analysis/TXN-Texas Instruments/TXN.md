@@ -10,6 +10,13 @@ Investor Relations Link: https://investor.ti.com/
 - Embedded Processing
 - Other
 
+
+## Fair Value
+Dividend Yield Theory
+- 
+
+
+
 ## CAPEX Increase 2022-2025
 Between 2022 and 2025, TI’s annual CAPEX surged from historical levels (around $1B–$2B) to roughly $5 billion per year. 
 This shift is driven by three primary pillars:

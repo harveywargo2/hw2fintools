@@ -38,11 +38,11 @@ https://www.pepsico.com/brands
 ## Fair Value
 ```json
 {'analysis_type': 'dyt',
- 'analysis_date': '2026-03-09',
+ 'analysis_date': '2026-03-10',
  'last_df_date': Timestamp('2026-03-02 00:00:00'),
- 'dyt_gate': 0.03,
- 'dyt_gate10': 0.033,
- 'dyt_gate20': 0.036,
+ 'dyt_gate': 0.031,
+ 'dyt_gate10': 0.0341,
+ 'dyt_gate20': 0.0372,
  'mean20yr_dyt': np.float64(0.02849581887525498),
  'median20yr_dyt': np.float64(0.0285885246991556),
  'mean10yr_dyt': np.float64(0.0299669058446616),

@@ -20,3 +20,7 @@ Google Cloud
 - Agents
 
 ## Fair Value
+
+```json
+
+```

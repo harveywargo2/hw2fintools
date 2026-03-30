@@ -14,3 +14,7 @@ International
 Amazon Web Services (AWS)
 - 18% of Revenue
 - 58% of Operating Income
+
+
+# Fair Value
+mstar [260:2026-03]
